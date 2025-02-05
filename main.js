@@ -1,6 +1,6 @@
 const btnAgregar = document.getElementById("btnAgregar");
 const btnSumatoria = document.getElementById("btnSumatoria");
-console.log("prueba")
+console.log("pruebakjhk")
 
 let suma = 0;
 
