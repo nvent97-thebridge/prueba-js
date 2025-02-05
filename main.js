@@ -1,5 +1,6 @@
 const btnAgregar = document.getElementById("btnAgregar");
 const btnSumatoria = document.getElementById("btnSumatoria");
+console.log("prueba")
 
 let suma = 0;
 
@@ -8,7 +9,7 @@ function agregar() {
 
   const listaUl = document.getElementById("lista");
   const elementoLista = document.createElement("li");
-  elementoLista.innerText = "El numero es: " + inputValue;
+  elementoLista.innerText = "El numero es : " + inputValue;
   listaUl.appendChild(elementoLista);
 
   suma += Number(inputValue);
