@@ -1,12 +1,11 @@
 const btnAgregar = document.getElementById("btnAgregar");
 const btnSumatoria = document.getElementById("btnSumatoria");
-console.log("pruebakjhk")
 
 let suma = 0;
 
 function agregar() {
   const inputValue = document.getElementById("inputNumero").value;
-
+  console.log("Test")
   const listaUl = document.getElementById("lista");
   const elementoLista = document.createElement("li");
   elementoLista.innerText = "El numero es : " + inputValue;
