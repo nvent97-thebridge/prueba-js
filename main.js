@@ -5,7 +5,7 @@ let suma = 0;
 
 function agregar() {
   const inputValue = document.getElementById("inputNumero").value;
-  console.log("Agregar")
+  console.log("Test")
   const listaUl = document.getElementById("lista");
   const elementoLista = document.createElement("li");
   elementoLista.innerText = "El numero es : " + inputValue;
