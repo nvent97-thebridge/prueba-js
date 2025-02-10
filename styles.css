@@ -28,9 +28,9 @@
 }
 
 #loginButton{
-    margin-top: 20px;
-    width: 270px;
-    background-color: rgb(9, 243, 71);
+    margin-top: 40px;
+    width: 300px;
+    background-color: red;
     color: white;
     cursor: pointer;
 }
