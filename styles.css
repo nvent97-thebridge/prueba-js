@@ -1,4 +1,48 @@
-.boca {
-    background-color: blue;
+.corta {
+    color: red;
+}
+
+.intermedia {
     color: yellow;
+}
+
+.bien {
+    color: green;
+}
+
+#passInfo {
+    font-size: 14px;
+    margin: 0;
+}
+
+#inputUser {
+    margin-bottom: 8px;
+}
+
+#loginButton, input {
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 4px 8px;
+    width: 250px;
+}
+
+#loginButton{
+    margin-top: 20px;
+    width: 270px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+#loginButton:disabled{
+    background-color: darkgray;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 40px 0px;
+    flex-direction: column;
+    gap: 4px;
 }
